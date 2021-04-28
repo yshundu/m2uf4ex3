@@ -8,6 +8,10 @@
         <servlet-name>showcolors2</servlet-name>
         <servlet-class>coreservlets.showcolors2</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>showcolors3</servlet-name>
+        <servlet-class>coreservlets.showcolors3</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>showcolors</servlet-name>
         <url-pattern>/showcolors</url-pattern>
@@ -15,6 +19,10 @@
     <servlet-mapping>
         <servlet-name>showcolors2</servlet-name>
         <url-pattern>/showcolors2</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>showcolors3</servlet-name>
+        <url-pattern>/showcolors3</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>

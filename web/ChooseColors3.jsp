@@ -1,7 +1,7 @@
 <%-- 
-    Document   : ChooseColors1
-    Created on : 28/04/2021, 17:02:32
-    Author     : Alumne
+    Document   : ChooseColors3
+    Created on : 28-abr-2021, 23:54:50
+    Author     : Yang
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
@@ -9,11 +9,11 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Choose Colors 2</title>
+        <title>JSP Page</title>
     </head>
     <body>
-        <h1>Choose Colors (2)</h1>
-        <form action="showcolors2.jsp" method="POST">
+        <h1>Choose Colors (3)</h1>
+        <form action="showcolors3.jsp" method="POST">
             <label>Foreground color:</label>
             <input type="text" name="foregroundColor"/>
             <br>
